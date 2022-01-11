@@ -1,0 +1,108 @@
+
+h1{
+	font-size: 45px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	
+	@media #{$mediaM}{
+		font-size: 40px;
+	}
+	@media #{$mediaS}{
+		font-size: 25px;
+	}
+}
+p{
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-weight: 500;
+	line-height: 1.7;
+	@media #{$mediaM}{
+		font-size: 17px;
+	}
+	@media #{$mediaS}{
+		font-size: 14px;
+	}
+}
+
+.p{
+	font-size: 16px;
+	color: $textColor;
+	font-family: "Open Sans";
+	@media #{$mediaM}{
+		font-size: 14px;
+	}
+	@media #{$mediaS}{
+		font-size: 12.7px;
+	}
+}
+
+.headline{
+	padding-left:15px;
+	margin-bottom: 45px;
+	h2{
+		font-weight: 900;
+		font-size: 35px;
+		font-family: 'Poppins';
+		color: #1d1b35;
+		margin: 10px 0;
+		@media #{$mediaL}{
+			font-size: 32px;
+		}
+		@media #{$mediaM}{
+			font-size: 28px;
+		}
+		@media #{$mediaS}{
+			font-size: 20px;
+		}
+	}
+
+
+
+	h6{
+		letter-spacing: 1.5px;
+		font-size: 15px;
+		font-weight: bold;
+		color: #729CBA;
+		@media #{$mediaS}{
+			font-size: 13px;
+		}
+		&:after{
+			content: "";
+			width: 120px;
+			background-color:$mainColor;
+			height: 1px;
+			display: inline-block;
+			margin: 5px 10px;
+		}
+
+	}
+
+}
+
+
+h4{  
+	font-size: 23px;
+	color: #444;
+	font-weight: 600;
+	line-height: 1.4;
+	@media #{$mediaM}{
+		font-size: 21px;
+	}
+	@media #{$mediaS}{
+		font-size: 18px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
